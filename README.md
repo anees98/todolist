@@ -1,6 +1,6 @@
 # todolistapp
 
-A new Flutter project.
+To-do list is a mobile application built for users to manage their daily to-do list.
 
 ## Getting Started
 
