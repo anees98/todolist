@@ -137,7 +137,7 @@ class ListPageState extends State<ListPage> {
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        title: Text(widget.title),
+        title: Text(widget.title, style: const TextStyle(fontWeight: FontWeight.bold),),
         centerTitle: false,
       ),
       body: Container(
