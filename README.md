@@ -4,13 +4,7 @@ To-do list is a mobile application built for users to manage their daily to-do l
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This application consist of one dashboard page "To-do list". All the to-do will be shown here and if there are empty to-do list, 
+a message indicating "You have no to-do list yet! Add some by hitting the add button".
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
