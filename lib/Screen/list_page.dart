@@ -143,11 +143,14 @@ class ListPageState extends State<ListPage> {
       body: Container(
         margin: const EdgeInsets.fromLTRB(10,20,10,0),
         child: Center(
-          child: ListView.builder(
+          child: (listtodo!.isNotEmpty) ?
+          ListView.builder(
           itemBuilder: _buildItemTodo,
           //itemCount: 2,
           itemCount: listtodo!.length,
-        ),
+        )
+         : const Text('You have no to-do list yet! Add some by hitting the add button'),
+
         ),
       ),
       floatingActionButton: FloatingActionButton(
